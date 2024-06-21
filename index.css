@@ -1,0 +1,716 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body {
+
+   overflow-x: hidden;
+  
+    
+}
+
+header {
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2.9rem 6.75rem;
+border-bottom: 1px solid rgba(20, 65, 80, 0.2);
+justify-content: space-between;
+
+
+
+}
+
+.nav-header {
+
+display: flex;
+flex-direction: row;
+width: 477px;
+justify-content: space-between;
+
+
+
+
+}
+
+.nav-header-element{
+
+    font-family: "Atkinson Hyperlegible";
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    
+}
+
+
+
+.nav-header-element:hover {
+
+    font-weight: 700;
+}
+
+main {
+
+    width: 100%;
+}
+
+.hero-small-header {
+
+    font-family: "Atkinson Hyperlegible";
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #4E9983;
+    display: flex;
+    justify-content: center;
+    padding-top: 5.5rem;
+}
+
+.hero-large-header {
+
+font-family: "EB Garamond";
+font-size: 8.75rem;
+    color: #19473A;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.hero-image-row {
+
+    display: flex;
+    flex-direction: row;
+    grid-gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.hero-icon-one {
+
+    position: absolute;
+    z-index: 2;
+    right: 61%;
+    top: 40rem;
+}
+
+.hero-icon-two {
+
+    
+    position: absolute;
+    z-index: 2;
+    right: 2%;
+    top: 43rem;
+
+}
+
+.hero-subheader {
+
+   display: flex;
+   width: 100%;
+   justify-content: center;
+margin-top: 3rem;
+
+
+}
+
+.hero-subheader span {
+
+    display: flex;
+    font-family: "Atkinson Hyperlegible";
+font-size: 20px;
+color: #000000;
+opacity: 0.5;
+max-width: 53.5rem;
+text-align: center;
+}
+
+.button-div {
+
+width: 100%;
+display: flex;
+justify-content: center;
+
+}
+
+.hero-button {
+
+    padding: 20px 40px;
+    margin-top: 3rem;
+    border: none;
+    background-color: #4E9983;
+    border-radius: 40px;
+    color: white;
+
+    font-size: 24px;
+    font-family: "Atkinson Hyperlegible";
+    margin-bottom: 7.5rem;
+    
+}
+
+.second-block {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #19473A;
+    padding: 120px 108px;
+}
+
+.second-block-column {
+
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+}
+
+.second-block-column img {
+
+    width: 120px;
+    height: 120px;
+}
+
+.second-block-digits {
+
+    
+font-family: "EB Garamond";
+font-size: 3.5rem;
+color: #F6FFFC;
+
+}
+
+.second-block-text {
+
+    font-size: 2rem;
+    font-family: "Atkinson Hyperlegible";
+    color: white;
+    opacity: 0.4;
+    font-weight: 200;
+}
+
+.third-block {
+
+    padding: 7.5rem 6.75rem;
+    background-color: #FFFAF2;
+}
+
+.third-top {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6.5rem;
+ align-items: center;
+ 
+}
+
+.third-bot {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.our-green-offerings {
+
+margin-right: 10rem;
+color: #19473A;
+font-family: "EB Garamond";
+font-size: 4.5rem;
+
+}
+
+.third-block-top-subheader {
+
+max-width: 33.25rem;
+opacity: 0.6;
+font-family: "Atkinson Hyperlegible";
+ font-size: 1.1rem;
+
+}
+
+.third-bot-header {
+
+    font-size: 2rem;
+    font-family: "Atkinson Hyperlegible";
+    color: black;
+    margin-bottom: 12px;
+
+}
+
+.third-bot-subheader {
+
+    max-width: 18rem;
+    font-size: 1.1rem;
+    font-family: "Atkinson Hyperlegible";
+    color: black;
+    opacity: 0.6;
+}
+
+.third-bot img {
+
+    margin-bottom: 1.5rem;
+}
+
+.fourth-block {
+
+    display: flex;
+    flex: row;
+    padding: 7.5rem 6.75rem;
+    grid-gap: 8rem;
+}
+
+.left-block {
+
+display: flex;
+flex-direction: column;
+
+}
+
+.right-block {
+    display: flex;
+}
+
+.our-story {
+
+    color: #4E9983;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Atkinson Hyperlegible";
+    margin-bottom: 2rem;
+
+}
+
+.ojt-sustainability {
+
+max-width: 27rem;
+color: #19473A;
+font-size: 4.5rem;
+font-family: "EB Garamond";
+font-weight: 500;
+line-height: 1.3;
+margin-bottom: 1.5rem;
+
+}
+
+.ourj-subheader {
+
+    max-width: 31rem;
+    color: black;
+    font-size: 1.1rem;
+    font-family: "Atkinson Hyperlegible";
+    opacity: 0.6;
+
+}
+
+.fourth-block-main-image {
+
+padding-left: 6.5rem;
+
+}
+
+.fourth-block-icon {
+
+position: relative;
+z-index: 2;
+right: 36rem;
+top: 8rem;
+
+}
+
+.fifth-block {
+
+    padding: 7.5rem 6.75rem;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 8rem;
+}
+
+.fifth-block-right {
+
+display: flex;
+flex-direction: column;
+
+}
+
+.fifthblock-icon-one {
+
+    position: relative;
+    z-index: 2;
+    left: -22rem;
+    bottom: 15rem;
+}
+
+.fifthblock-icon-two {
+
+    position: relative;
+    z-index: 2;
+   left: 27.3rem;
+   bottom: 14rem;
+
+}
+
+.why-us {
+
+    color: #4E9983;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Atkinson Hyperlegible";
+    margin-bottom: 2rem;
+
+}
+
+.partnering-for-change {
+
+    max-width: 27rem;
+color: #19473A;
+font-size: 4.5rem;
+font-family: "EB Garamond";
+font-weight: 500;
+line-height: 1.3;
+margin-bottom: 1.5rem;
+
+}
+
+.why-us-subheader {
+
+    
+    max-width: 31rem;
+    color: black;
+    font-size: 1.1rem;
+    font-family: "Atkinson Hyperlegible";
+    opacity: 0.6;
+
+}
+
+.sixth-block {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.variety-gallery {
+
+display: flex;
+flex-direction: row;
+grid-gap: 1.5rem;
+padding: 0 6.75rem;
+
+}
+
+.variety-column-gallery {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.variety-header {
+
+    text-align: center;
+    color: #19473A;
+    font-family: "EB Garamond";
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.variety-subheader {
+
+  
+    color: black;
+    font-size: 1.1rem;
+    font-family: "Atkinson Hyperlegible";
+    opacity: 0.6;
+   
+    text-align: center;
+    margin-bottom: 3rem;
+ 
+}
+
+.variety-column-gallery img {
+
+    margin-bottom: 2rem;
+}
+
+.variety-row-header {
+
+margin-bottom: 0.75rem;
+color: black;
+font-size: 2rem;
+font-family: "Atkinson Hyperlegible";
+
+}
+
+.variety-row-subheader {
+
+    color: black;
+    font-size: 1.1rem;
+    font-family: "Atkinson Hyperlegible";
+    opacity: 0.6;
+    max-width: 18rem;
+
+}
+
+.var-button-div {
+
+    display: flex;
+    justify-content: center;
+}
+
+.variety-button {
+
+    padding: 20px 40px;
+    margin-top: 4.4rem;
+    border: none;
+    background-color: #4E9983;
+    border-radius: 40px;
+    color: white;
+
+    font-size: 24px;
+    font-family: "Atkinson Hyperlegible";
+    margin-bottom: 7.5rem;
+
+   
+}
+
+.our-partners {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FAFAFA;
+
+}
+
+.our-partners-header {
+
+    text-align: center;
+    color: #19473A;
+    font-family: "EB Garamond";
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-bottom: 4.5rem;
+    margin-top: 6.6rem;
+
+}
+
+.partners-images {
+
+    padding: 0rem 9rem;
+    max-height: 50px;
+   display: flex;
+   justify-content: baseline;
+  grid-gap: 5rem;
+  margin-bottom: 8.4rem;
+
+}
+
+.div-eight {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem 6.9rem;
+}
+
+.eight-text {
+
+text-align: center;
+position: relative;
+z-index: 2;
+top: -23rem;
+
+font-family: "EB Garamond";
+color: white;
+font-size: 4.5rem;
+line-height: 1;
+
+}
+
+.eight-pink {
+
+    color: #FFA8A8;
+
+}
+
+.button-eight-container {
+
+display: flex;
+justify-content: center;
+
+}
+
+.button-eight-container {
+
+    position: relative;
+    z-index: 2;
+    top: -19rem;
+
+}
+
+.eight-button {
+
+    padding: 1.25rem 2.5rem;
+    border-radius: 40px;
+    border: none;
+    background-color: #F6FFFC;
+    font-family: "Atkinson Hyperlegible";
+    color: black;
+    font-size: 28px;
+}
+
+.wrapper-footer {
+
+    width: 100%;
+}
+
+.grey-footer-part {
+
+background-color: #FFFFFF;
+padding: 4.25rem 6.75rem;
+border-top: 1.5px solid lightgray;
+
+}
+
+.part-footer-black {
+
+background-color: #000000;
+
+}
+
+.long-line-in-footer {
+
+display: flex;
+flex-direction: row;
+align-items: center;
+
+
+}
+
+.footer-address {
+
+    font-family: "Atkinson Hyperlegible";
+    color: black;
+    opacity: 0.6;
+    font-size: 1.125rem;
+
+}
+
+.footer-contact-details {
+
+    font-family: "Atkinson Hyperlegible";
+    color: black;
+    font-size: 1.125rem;
+
+}
+
+.footer-logo {
+
+    margin-bottom: 1.3rem;
+}
+
+.footer-address {
+
+    margin-right: 18.3rem;
+}
+
+.footer-email {
+
+    margin-right: 2.3rem;
+}
+
+.footer-mobile {
+
+    margin-right: 3.8rem;
+}
+
+.facebook-icon {
+
+    margin-right: 2.8rem;
+
+}
+
+.insta-icon {
+
+    margin-right: 2.8rem;
+
+}
+
+.part-footer-black {
+
+padding: 1.75rem 6.21rem;
+display: flex;
+flex-direction: row;
+
+}
+
+.part-footer-black {
+
+    font-family: "Atkinson Hyperlegible";
+    color: white;
+    font-size: 1.125rem;
+
+}
+
+.biopack-reserved-footy {
+
+    margin-right: 26.2rem;
+}
+
+.part-black-right-footer {
+
+   display: flex;
+   grid-gap: 2.6rem;
+}
+
+.active {
+
+    color: white;
+    background-color:  #19473A;;
+   padding: 0.5rem;
+    border-radius: 12px;
+  display: flex;
+
+}
+
+.mobile-nav {
+
+    display: none;
+    
+}
+
+.one {
+
+    width: 15px;
+    height: 1.7px;
+    background-color:  #19473A;
+
+}
+
+.two {
+
+    width: 15px;
+    height: 1.7px;
+    background-color:  #19473A;
+
+}
+
+.three {
+
+    width: 15px;
+    height: 1.7px;
+    background-color:  #19473A;
+
+}
+
+.mobile-menu {
+
+    display: none;
+}
+
+
